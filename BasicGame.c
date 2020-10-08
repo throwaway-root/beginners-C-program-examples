@@ -256,7 +256,7 @@ void winPrize(int playerPrizes[], unsigned int* prizeCount) //do the winprize fu
 	if (*prizeCount < MAX)
 	{
 		playerPrizes[*prizeCount] = prize;
-		printf("you won a prize of %d\n", prize);
+		printf("You have won a prize of %d\n", prize);
 		*prizeCount = *prizeCount + 1;
 	}
 	else
@@ -271,7 +271,7 @@ void winGrandPrize(int playerPrizes[], unsigned int* prizeCount) // do the win g
 	if (*prizeCount < MAX)
 	{
 		playerPrizes[*prizeCount] = prize;
-		printf("you won a grand prize of %d\n", prize);
+		printf("You have won a grand prize of %d\n", prize);
 		*prizeCount = *prizeCount + 1;
 	}
 	else
@@ -283,7 +283,7 @@ int loseItem(int playerPrizes[], unsigned int *prizeCount) // do the loseitem fu
 
 	if (*prizeCount == 0)
 	{
-		printf("Nothing happened,Move On\n");
+		printf("Nothing Happened,Move On\n");
 	}
 	else
 	{
