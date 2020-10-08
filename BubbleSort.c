@@ -11,9 +11,10 @@ int main()
  
   printf("Enter %d integers\n", n);
  
+//Input unsorted array
   for (c = 0; c < n; c++)
     scanf("%d", &array[c]);
- 
+ //Sort the array
   for (c = 0 ; c < n - 1; c++)
   {
     for (d = 0 ; d < n - c - 1; d++)
@@ -28,7 +29,7 @@ int main()
   }
  
   printf("Sorted list in ascending order:\n");
- 
+ //Print the sorted array
   for (c = 0; c < n; c++)
      printf("%d\n", array[c]);
  
