@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main()
 { float a,r;
-printf("Enter the Radius : ");
+printf("Enter the length of one side : ");
 scanf("%f",&s);
 a=s*s;
-printf("Area is %f",a);
+printf("Area of the square is %f",a);
 }
