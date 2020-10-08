@@ -6,7 +6,7 @@ int main()
 {
   int array[100], n, c, d, swap;
  
-  printf("Enter number of elements\n");
+  printf("Enter the number of elements\n");
   scanf("%d", &n);
  
   printf("Enter %d integers\n", n);
@@ -28,7 +28,7 @@ int main()
     }
   }
  
-  printf("Sorted list in ascending order:\n");
+  printf("Sorted list in the ascending order:\n");
  //Print the sorted array
   for (c = 0; c < n; c++)
      printf("%d\n", array[c]);
