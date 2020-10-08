@@ -8,7 +8,7 @@ int Diceroll(int DiceSides)
 {
   srand(time(NULL));
   int n = (DiceSides - 1) + 1; //n in this case is the range of the random int
-  int DiceRoll  = 1 + rand() % n;
+  int DiceRoll  = 1 + rand() % n; //Gets a random number between 1 and n
 
   return DiceRoll;
 }
@@ -19,7 +19,7 @@ int main(int argc, char argv)
   printf("Enter the number of sides your die has. \n");
   scanf("%d",&DiceSides);
 
-  int Dice = Diceroll(DiceSides);
-  printf("you rolled a %d \n",Dice);
+  int Dice = Diceroll(DiceSides); //function call
+  printf("you rolled a %d \n",Dice); //get value
   return 0;
 }
