@@ -1,4 +1,4 @@
-// A simple arithmetic operation on two integers
+// A simple arithmetic operation on two integers.
 
 #include<stdio.h>
 
