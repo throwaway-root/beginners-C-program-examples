@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int a,s;
-	cout<<"enter a decimal no";
+	cout<<"enter a decimal no"; //take input
 	int b;
 	cin>>b;
 	int c,d,e[100],count=0,i=0;
@@ -21,7 +21,7 @@ int main()
 	int j;
 	for(j=count;j>=0;j--)
 	{
-		cout<<e[j];
+		cout<<e[j];//print binary value
 		  }  
 		
 
